@@ -8,7 +8,7 @@ Finally got Terraform set up more or less properly to provide more details.
 - 🌐 Currently served via S3 + Cloudfront distribution on a subdomain of `jeremeybingham.com`.
 - 🔒 An SSL certificate is issued for the `*.jeremeybingham.com` namespace. That ARN, plus the Hosted Zone ID of the domain and some other values, are set in `variables.tf`.
 
-**Commit for this entry:** 
+**Commit for this entry:** [f174e0](https://github.com/jeremeybingham/resume/commit/f174e02f38457e188c3bc40d8d2a97e3859de3e3)
 
 
 ### 📅 6/6/24
