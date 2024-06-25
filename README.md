@@ -1,15 +1,17 @@
-# 📝 Resume
+# 📝 AWS S3 Static Resume
+
+**Available at:** [resume.jeremeybingham.com](https://resume.jeremeybingham.com)
+🌐 Currently served via **S3 + CloudFront distribution**.
 
 A resume template in progress, inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/).
 
-I'll be updating this as I build out a few different concepts, probably:
+Also check out:
+**Google Cloud Run** version of this resume: [gcp-resume.jeremeybingham.com](https://gcp-resume.jeremeybingham.com)
 
-1. 🛠️ Lambda/API Gateway-served API to retrieve in PDF/DOCX/TXT and/or build from submitted JSON.
-2. 🦀 Implementations in Go and Rust.
-3. ⛓️ While DynamoDB seemed like overkill for the counter, I experimented with a purely static implementation where `DuckDB` read/wrote a JSON file inside a Lambda function. Probably just use Redis eventually.
+Coming soon:
+1. 🦀 **Implementations in Go and Rust**.
+2. 🌑 **Bonus day/night mode** (coming to this resume soon!).
 
-🌐 Currently served via S3 + Cloudfront distribution.
-**Available at:** [resume.jeremeybingham.com](https://resume.jeremeybingham.com)
 
 ## 🚀 To Deploy
 
