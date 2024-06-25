@@ -10,7 +10,8 @@ Also check out:
 
 Coming soon:
 1. 🦀 **Implementations in Go and Rust**.
-2. 🌑 **Bonus day/night mode** (coming to this resume soon!).
+2. 🌑 **Day/night mode toggle** - already on [gcp](https://gcp-resume.jeremeybingham.com)
+3. 🔧 **CI/CD via Github Actions**
 
 
 ## 🚀 To Deploy
@@ -26,6 +27,9 @@ Look at `variables.tf` for these settings.
 All files should be in the same directory as `main.tf`.
 
 ## 📒 Log/Notes
+
+### 📅 6/25/24
+Deployed a [new version](https://gcp-resume.jeremeybingham.com) on Google Cloud; includes CI/CD and Dockerized deployment.
 
 ### 📅 6/11/24
 Finally got Terraform working more or less properly to provide more details of the current/initial deployment.
