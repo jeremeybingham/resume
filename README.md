@@ -1,14 +1,14 @@
 # 🧾 AWS S3 Static Resume Via Terraform
 
-This repository contains the code for my "main" resume URL: [resume.jeremeybingham.com](https://resume.jeremeybingham.com).
+This repository contains the code for: [resume.jeremeybingham.com](https://resume.jeremeybingham.com).
 
-### Have a look at some other resume templates in progress, inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/):
+### Some other resume templates in progress, inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/):
 
 🌤️ **Google Cloud Run/Docker/CI/CD** version: [gcp-resume.jeremeybingham.com](https://gcp-resume.jeremeybingham.com) 
-repo/code: (gcp-resume)[https://github.com/jeremeybingham/gcp-resume]
+repo/code: [gcp-resume](https://github.com/jeremeybingham/gcp-resume)
 
 💽 **S3 Static with Github Actions CI/CD** version: [aws-s3-static.jeremeybingham.com](https://aws-s3-static.jeremeybingham.com) 
-repo/code: (aws-s3-static)[https://github.com/jeremeybingham/aws-s3-static]
+repo/code: [aws-s3-static](https://github.com/jeremeybingham/aws-s3-static)
 
 Coming soon:
 1. 🦀 **Implementations in Go and Rust**.
@@ -26,12 +26,12 @@ What you need for this:
 - 🏷️ A subdomain you'd like to use, like: `resume.example.com`.
 - 🌍 A globally-unique string to use as your bucket name.
 
-Check `variables.tf` for these settings.
-All files should be in the same root directory as `main.tf`.
+Look at `variables.tf` for these settings.
+All files should be in the same directory as `main.tf`.
 
 
 ## 📒 Dev Log/Notes
-Since this page is my "primary resume", I'll include some development notes on the various versions below as I go.
+Since this is my "primary resume" (the one resume.jeremeybingham.com points to,) I'll include some development notes on the various versions below as I go.
 
 ### 📅 6/25/24
 Deployed a [new version](https://gcp-resume.jeremeybingham.com) on Google Cloud; includes CI/CD and Dockerized deployment; also deployed an [S3 static variant](https://github.com/jeremeybingham/aws-s3-static) featuring Github Actions-based deployment and secrets managment. Busy day! 
