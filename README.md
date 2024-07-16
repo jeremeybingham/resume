@@ -11,9 +11,7 @@ repo/code: [gcp-resume](https://github.com/jeremeybingham/gcp-resume)
 repo/code: [aws-s3-static](https://github.com/jeremeybingham/aws-s3-static)
 
 Coming soon:
-1. 🦀 **Implementations in Go and Rust**.
-2. 🌙 **Day/night mode toggle** - (already on [gcp-resume](https://gcp-resume.jeremeybingham.com)!)
-
+🦀 **Implementations in Go and Rust**.
 
 ## 🚀 Deployment
 
@@ -32,6 +30,11 @@ All files should be in the same directory as `main.tf`.
 
 ## 📒 Dev Log/Notes
 Since this is my "primary resume" (the one resume.jeremeybingham.com points to,) I'll include some development notes on the various versions below as I go.
+
+### 📅 7/16/24
+New HTML/CSS layout + 🌙 **Day/night mode toggle** on all versions! Resolved a visual bug in the light mode CSS that was annoying me and looks good enough to release now, also a native PDF to download!
+**Commit for this entry:** [9d4c42](
+https://github.com/jeremeybingham/resume/commit/9d4c42653d9ad3306f2a2a536d391050d4310ae5)
 
 ### 📅 6/25/24
 Deployed a [new version](https://gcp-resume.jeremeybingham.com) on Google Cloud; includes CI/CD and Dockerized deployment; also deployed an [S3 static variant](https://github.com/jeremeybingham/aws-s3-static) featuring Github Actions-based deployment and secrets managment. Busy day! 
