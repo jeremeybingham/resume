@@ -59,10 +59,10 @@ resource "aws_s3_object" "index_html" {
   content_type = "text/html"
 }
 
-resource "aws_s3_object" "style_css" {
+resource "aws_s3_object" "styles_css" {
   bucket       = aws_s3_bucket.bucket_name.bucket
-  key          = "style.css"
-  source       = "style.css"
+  key          = "styles.css"
+  source       = "styles.css"
   content_type = "text/css"
 }
 
@@ -71,6 +71,13 @@ resource "aws_s3_object" "favicon_ico" {
   key          = "favicon.ico"
   source       = "favicon.ico"
   content_type = "image/x-icon"
+}
+
+resource "aws_s3_object" "Jeremey_Bingham_resume_pdf" {
+  bucket       = aws_s3_bucket.bucket_name.bucket
+  key          = "Jeremey_Bingham_resume.pdf"
+  source       = "Jeremey_Bingham_resume.pdf"
+  content_type = "application/pdf"
 }
 
 resource "aws_cloudfront_distribution" "distribution_name" {
