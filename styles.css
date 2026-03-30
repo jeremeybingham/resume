@@ -151,6 +151,7 @@ ul {
 
 .ul_factoids {
     margin-left: 0.5rem;
+    list-style-type: disc;
 }
 
 .ul_factoids li {
