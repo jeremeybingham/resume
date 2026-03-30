@@ -149,27 +149,27 @@ ul {
     margin: 0;
 }
 
-#ul_factoids {
+.ul_factoids {
     margin-left: 0.5rem;
 }
 
-#ul_factoids li {
+.ul_factoids li {
     padding-left: 0.25rem;
     margin-bottom: 0.4rem;
 }
 
-#ul_factoids li::marker {
+.ul_factoids li::marker {
     color: var(--factoid-marker);
     font-size: 0.85em;
     content: "↳"
 }
 
-#ul_skills {
+.ul_skills {
     list-style: none;
     margin: 1rem 0.25rem;
 }
 
-#ul_skills li {
+.ul_skills li {
     display: inline-block;
     margin-top: 0.25rem;
     margin-right: 0.25rem;
@@ -182,6 +182,23 @@ ul {
     background: var(--ul-skills-background);
     color: var(--ul-skills-color);
     font-weight: 500;
+}
+
+.role {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--h2-color);
+    margin-top: -0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer_info {
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer_info li::marker {
+    content: "↳"
 }
 
 pre code {
