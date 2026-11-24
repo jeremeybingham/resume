@@ -1,5 +1,9 @@
 # 🧾 AWS S3 Static Resume Via Terraform
 
+> **Retired (November 2026).** resume.jeremeybingham.com is no longer served from this repo. It now runs on an AWS
+> Lightsail server, and its source lives in a new repository. The CloudFront distribution, S3 bucket and DNS records this
+> Terraform created have been deleted; the code here is kept for reference only.
+
 This repository contains the code for: [resume.jeremeybingham.com](https://resume.jeremeybingham.com).
 
 ### Some other resume templates in progress, inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/):
@@ -30,6 +34,9 @@ All files should be in the same directory as `main.tf`.
 
 ## 📒 Dev Log/Notes
 Since this is my "primary resume" (the one resume.jeremeybingham.com points to,) I'll include some development notes on the various versions below as I go.
+
+### 📅 11/24/26
+Moved the site to a Lightsail server with Caddy and retired the CloudFront/S3 deployment. This repo is now an archive.
 
 ### 📅 7/16/24
 New HTML/CSS layout + 🌙 **Day/night mode toggle** on all versions! Resolved a visual bug in the light mode CSS that was annoying me and looks good enough to release now, also a native PDF to download!
